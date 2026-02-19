@@ -4,8 +4,11 @@ public class Conditonal {
         if(sal>10000){
             sal=sal+1000;
         }
+        else if(sal>20000){
+            sal+=2000;
+        }
         else{
-            sal=sal+2000;
+            sal+=3000;
         }
         System.out.println(sal);
     }
